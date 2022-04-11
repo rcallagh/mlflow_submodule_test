@@ -1,0 +1,8 @@
+name: submodule_test
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  pip:
+    - mlflow>=1.0
