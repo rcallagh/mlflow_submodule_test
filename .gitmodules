@@ -1,0 +1,3 @@
+[submodule "submod_for_mlflow_test"]
+	path = submod_for_mlflow_test
+	url = https://github.com/rcallagh/submod_for_mlflow_test.git
