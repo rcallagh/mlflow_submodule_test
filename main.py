@@ -12,7 +12,7 @@ def main():
 
         git_commit = run.data.tags['mlflow.source.git.commit']
 
-        print('Mlflow worked on commit {}'.format(git_commit))
+        print('Mlflow worked on commit: {}'.format(git_commit))
         mlflow.log_metric('worked', 1)
         mlflow.log_param('git_commit', git_commit)
 
