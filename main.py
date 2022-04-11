@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import mlflow
-import submod_for_mlflow_test as sm
+import submod_for_mlflow_test.submod as sm
+
 
 
 def main():
